@@ -1,0 +1,21 @@
+.star-rating {
+    font-size: 24px;
+    color: rgb(0, 238, 255);
+    /* Color de las estrellas llenas */
+}
+
+.star {
+    display: inline-block;
+    margin-right: 5px;
+    transition: color 0.2s ease;
+}
+
+.star-filled {
+    color: rgb(0, 238, 255);
+    /* Color de las estrellas llenas */
+}
+
+.star-empty {
+    color: gray;
+    /* Color de las estrellas vacías */
+}

@@ -1,0 +1,69 @@
+/* footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    background-color: #464242;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.footer-section .social a {
+    display: flex;
+    align-items: center;
+    /* Centrar verticalmente el icono y el texto */
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    /* Agregar espacio vertical entre cada enlace */
+}
+
+
+/* Estilos para pantallas más pequeñas (móviles) */
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+    .footer-section {
+        margin: 10px 0;
+    }
+}

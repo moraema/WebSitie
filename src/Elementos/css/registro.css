@@ -1,0 +1,24 @@
+.registrarse-link {
+    background-color: #c57d34;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Transición de color de fondo */
+}
+
+.registrarse-link:hover {
+    background-color: #0056b3;
+    /* Cambio de color al pasar el mouse */
+}
+
+.registrarse-icon {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.registrarse-text {
+    font-size: 16px;
+}

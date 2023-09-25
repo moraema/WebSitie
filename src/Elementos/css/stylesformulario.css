@@ -1,0 +1,90 @@
+.custom-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #4289b8f9;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    border: 2px solid #ccc;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #e6311c;
+    background: transparent;
+    border: none;
+}
+
+.close-btn:hover {
+    color: #ccc;
+}
+
+
+/* Estilos para los campos de entrada y etiquetas */
+
+.form-group {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Estilos para aumentar el tamaño de los campos de entrada */
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #3498db;
+    border-radius: 15px;
+}
+
+
+/* Estilos para el botón */
+
+.button {
+    background-color: #e11616e8;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    /* Aumentar el espaciado interno */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #13a624cb;
+}
