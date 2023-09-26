@@ -51,9 +51,6 @@
     color: #ccc;
 }
 
-
-/* Estilos para la cuadrícula de productos */
-
 .product-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

@@ -1,0 +1,31 @@
+.discount-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 30vh;
+}
+
+.discount-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media (max-width: 768px) {
+    .discount-banner {
+        height: 15vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome-banner {
+        height: 10vh;
+    }
+}

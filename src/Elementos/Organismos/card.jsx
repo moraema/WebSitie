@@ -14,8 +14,8 @@ import imagen9 from '../imagenes/tensi2.jpg';
 import imagen10 from '../imagenes/playera2.jpg';
 import imagen11 from '../imagenes/audifonos.jpg';
 import imagen12 from '../imagenes/zapato.jpg';
-
-
+import Descuento from '../imagenes/inicio.webp';
+import '../css/stylesinicio.css';
 import '../css/stylescard.css';
 
 const HomePage = () => {
@@ -46,6 +46,9 @@ const HomePage = () => {
 
   return (
     <div className="home-page">
+      <div className="discount-banner">
+        <img src={Descuento} alt="Fondo de descuento" className="discount-background" />
+      </div>
       <h1>Productos Destacados</h1>
       <ProductGrid products={productsData} onLikeToggle={toggleLike} likedProducts={likedProducts} />
       <Comentario />
