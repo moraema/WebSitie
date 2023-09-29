@@ -1,5 +1,5 @@
 .registrarse-link {
-    background-color: #c57d34;
+    background-color: #0056b3;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -10,7 +10,7 @@
 }
 
 .registrarse-link:hover {
-    background-color: #0056b3;
+    background-color: #c57d34;
     /* Cambio de color al pasar el mouse */
 }
 

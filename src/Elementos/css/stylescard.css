@@ -43,6 +43,14 @@
     margin-bottom: 10px;
 }
 
+.blue-price {
+    color: blue;
+}
+
+.red-price {
+    color: red;
+}
+
 .product-like {
     background-color: transparent;
     border: none;
@@ -76,14 +84,19 @@
     }
 }
 
-.product-card:hover {
-    transform: translateY(-5px);
-    border: 2px solid #eb7f0cd8;
-}
-
 .home-page h1 {
     text-align: center;
     font-size: 28px;
     font-weight: bold;
     color: #333;
+}
+
+.blue-border:hover {
+    border: 2px solid blue;
+    transition: border-color 0.3s;
+}
+
+.orange-border:hover {
+    border: 2px solid #eb7f0cd8;
+    transition: border-color 0.3s;
 }

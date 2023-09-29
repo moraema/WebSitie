@@ -44,6 +44,7 @@ const HomePage = () => {
     });
   };
 
+
   return (
     <div className="home-page">
       <div className="discount-banner">

@@ -1,6 +1,9 @@
 import React from 'react';
 import '../css/stylescalificacion.css';
-function StarRating({ rating }) {
+function StarRating({ rating, isRed}) {
+  const starStyle = {
+    color: isRed ? 'red' : 'rgb(0, 238, 255);', 
+  };
   const stars = [];
 
   for (let i = 1; i <= 5; i++) {
@@ -9,7 +12,7 @@ function StarRating({ rating }) {
   }
 
   return (
-    <div className="star-rating">
+    <div className="star-rating" style={starStyle}>
       {stars}
     </div>
   );
